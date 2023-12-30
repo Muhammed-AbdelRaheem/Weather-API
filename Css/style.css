@@ -1,0 +1,65 @@
+
+:root{--body-color:#323544
+}
+
+
+
+.navbar-collapse li{margin-right: 20px !important; 
+}
+.navbar-expand-lg{
+    height: 20%;
+    background-image: linear-gradient(rgb(105 76 25), #F5AF7C);
+
+    background-color:#81908C ;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1.15) !important;
+    font-family: 'Diphylleia', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main{background-image: url(../vecteezy_the-impact-of-greenhouse-effect-on-climate-nature_28238766.jpg)
+                    ;
+                    background-size: cover
+    ;}
+
+.num{font-size: 6rem;}
+
+#degree img {
+    vertical-align: text-bottom ;
+}
+.humdaity{margin-left: 20px;}
+
+.details{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.card{
+    border: solid 1px black !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1.15);
+}
+.btn
+{
+    border-color:#FEC085 !important;
+}
+
+.footer{
+    background-color: #a56b41 ;
+    box-shadow: 0 0.5rem 5rem rgba(1, 0, 0, 1.15);
+
+}
+
+.btn:hover{
+    background-color: #FEC085 !important; 
+     color: black !important;
+}
+.btn-outline-info{
+    color: #FEC085 !important;
+}
+
+.brands i{
+    color: #372518;
+}

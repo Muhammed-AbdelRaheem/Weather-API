@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="stylesheet" href="Css/all.min.css" />
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Titillium+Web&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main w-100 h-100">
+
+    <nav class="navbar navbar-expand-lg d-flex align-content-center ">
+
+      <div class="container-fluid justify-content-around my-4">
+        <a class="navbar-brand" href="#">Weather</a>
+        <button id="btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item me-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container  ">
+      <div class="search d-flex justify-content-center pt-5 w-100">
+        <input id="search" type="text" class="form-control shadow-none " placeholder="Find Your Location" />
+        <button class="btn btn-outline-info ">Find</button>
+      </div>
+
+
+
+
+      <div class="row py-5 ">
+        <div class=" currentweather col-lg-4 my-4 card  bg-transparent ">  
+        <div>
+          <div id="timezone" class=" d-flex justify-content-between py-3 ">
+            <span id="day" class="day fw-bold"></span>
+            <span id="month" class="month fw-bold"></span>
+          </div>
+
+          <div class=" w-100">
+            <span id="location" class="d-block fs-4 fw-bold"> </span>
+            <div id="degree" class="degree d-flex justify-content-around">
+              <span id="num" class="num"></span>
+              <img id="icon" alt="" src="">
+            </div>
+
+           <div class="details">
+            <span id="text" class="d-block fw-bold humdaity">mist</span>
+
+            <div class="details d-flex justify-content-between w-75 py-3">
+              <i class="fa-solid fa-umbrella"> <span id="humidity"> 20%</span></i>
+
+              <i class="fa-solid fa-wind"><span id="wind-speed">18km</span></i>
+              <i class="fa-regular fa-compass "><span id="wind-dir">east</span></i>
+            </div>
+           </div>
+          </div>
+        
+        </div>  
+        </div>
+
+
+
+
+        <div class="col-lg-4 my-4 card bg-transparent">
+
+          <div class="date d-flex justify-content-center fw-bold py-3 ">
+
+            <span class="day "></span>
+
+          </div>
+
+       
+            <div class="degree d-flex flex-column align-items-center pt-5">
+              <img id="icon2" src="" alt="2">
+
+              <span class="mx-num fs-2 "></span>
+              <span class="min-num fs-2"></span>
+
+              <span id="text1" class="mt-5 fw-bold"></span>
+
+   
+
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 my-4 card bg-transparent">
+            <div class="date d-flex justify-content-center py-3 ">
+              <span class="day2 fw-bold"></span>
+            </div>
+
+              <div class="degree d-flex flex-column align-items-center pt-5">
+                <img class="icon2" src="" alt="2">
+                <span id="max-num" class="num fs-2 "></span>
+                <span id="min-num" class="num fs-2"></span>
+
+                <span id="text2" class="mt-5 fw-bold">Partly cloudy</span>
+
+              </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+   
+
+  <div class="footer   ">
+    <div class="container d-flex justify-content-center align-items-center py-5 w-75">
+      
+      
+   <div class="sub d-flex justify-content-center w-100">
+        <input type="text" class="form-control shadow-none w-75 " placeholder="Enter your email to subscribe..." />
+        <button class="btn btn-outline-info ms-2 ">submit</button>
+   </div>
+     
+    <div class="brands  d-flex align-items-center justify-content-around   ">
+
+      <a href="#" ><i class="fa-brands fa-facebook fa-lg fs-2 me-3 "></i></a>
+      <a href="#"><i class="fa-brands fa-twitter fa-lg fs-2 me-3"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest fa-lg fs-2 me-3 "></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin fa-lg fs-2 me-3"></i></a>
+   </div>
+  </div>
+  <p class="text-center mb-0 pb-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+  </div>
+
+  <script src="js/javascript.js"></script>
+</body>
+
+</html>
